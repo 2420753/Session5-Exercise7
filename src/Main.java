@@ -20,8 +20,9 @@ public class Main {
         }
 
         // printing all the words on the final line
-        for (int i = 0; i < wordsArray.length; i++) {
-            System.out.print(wordsArray[i] + " ");
+        // Printing words in reverse order, starting with the size of the array
+        for (int i = size - 1; i >= 0; i--) {
+            System.out.println("\n" + wordsArray[i]);
         }
     }
 }
